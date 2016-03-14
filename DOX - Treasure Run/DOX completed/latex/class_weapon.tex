@@ -1,0 +1,84 @@
+\hypertarget{class_weapon}{}\section{Weapon Class Reference}
+\label{class_weapon}\index{Weapon@{Weapon}}
+
+
+$<$For implementing graphics  
+
+
+
+
+{\ttfamily \#include $<$weapon.\+h$>$}
+
+Inheritance diagram for Weapon\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_weapon}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_weapon_a1d62683b1b6dc0795420c7da6f141437}{move} ()
+\begin{DoxyCompactList}\small\item\em Moves the treasure chest down. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_weapon_a42dbc46dd70319a24763992c4ebbd396}{Weapon} ()
+\begin{DoxyCompactList}\small\item\em Spawns a tresure chest that will randomly generate a new weapon damage. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+$<$For implementing graphics 
+
+The weapon file implements treasure chests into the game, which are required to win the game.$<$for signalling slots 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Weapon@{Weapon}!Weapon@{Weapon}}
+\index{Weapon@{Weapon}!Weapon@{Weapon}}
+\subsubsection[{\texorpdfstring{Weapon()}{Weapon()}}]{\setlength{\rightskip}{0pt plus 5cm}Weapon\+::\+Weapon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weapon_a42dbc46dd70319a24763992c4ebbd396}{}\label{class_weapon_a42dbc46dd70319a24763992c4ebbd396}
+
+
+Spawns a tresure chest that will randomly generate a new weapon damage. 
+
+$<$ Set a random position for the treasure chest
+
+$<$ Draw the rectangle of the treasure chest
+
+Connecting the treasure chest
+
+$<$ object whose signal you want to connect, constructor, move.
+
+$<$ setting timer\textquotesingle{}s time to 50 milliseconds. 
+
+\subsection{Member Function Documentation}
+\index{Weapon@{Weapon}!move@{move}}
+\index{move@{move}!Weapon@{Weapon}}
+\subsubsection[{\texorpdfstring{move}{move}}]{\setlength{\rightskip}{0pt plus 5cm}void Weapon\+::move (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_weapon_a1d62683b1b6dc0795420c7da6f141437}{}\label{class_weapon_a1d62683b1b6dc0795420c7da6f141437}
+
+
+Moves the treasure chest down. 
+
+if treasure\+Chest collides with player, destroy the chest and give the player a random weapon
+
+playing the treasure chest collection sound
+
+If treasure chest collides with player, remove the chest
+
+moving chest down
+
+$<$ x() = current x, y() = current y
+
+delete the enemy when it\textquotesingle{}s off the screen 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/weapon.\+h\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/weapon.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,94 @@
+\hypertarget{class_game}{}\section{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+{\ttfamily \#include $<$game.\+h$>$}
+
+Inheritance diagram for Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_ae3c64a8dd73de0a99849db8ec0e9a86c}{Game} (Q\+Widget $\ast$parent=0)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_player}{Player} $\ast$ \hyperlink{class_game_abec70aa1c0269a9a7e171af4d79e08bf}{player}\hypertarget{class_game_abec70aa1c0269a9a7e171af4d79e08bf}{}\label{class_game_abec70aa1c0269a9a7e171af4d79e08bf}
+
+\begin{DoxyCompactList}\small\item\em Creating player object. \end{DoxyCompactList}\item 
+\hyperlink{class_score}{Score} $\ast$ \hyperlink{class_game_ad195acc6b5ee17a5a07fea0b7b4ff5e2}{score}\hypertarget{class_game_ad195acc6b5ee17a5a07fea0b7b4ff5e2}{}\label{class_game_ad195acc6b5ee17a5a07fea0b7b4ff5e2}
+
+\begin{DoxyCompactList}\small\item\em Creating score object. \end{DoxyCompactList}\item 
+\hyperlink{class_health}{Health} $\ast$ \hyperlink{class_game_a4cfa8ef83412c73d759b3965804f42aa}{health}\hypertarget{class_game_a4cfa8ef83412c73d759b3965804f42aa}{}\label{class_game_a4cfa8ef83412c73d759b3965804f42aa}
+
+\begin{DoxyCompactList}\small\item\em Creating health object. \end{DoxyCompactList}\item 
+\hyperlink{class_enemy}{Enemy} $\ast$ \hyperlink{class_game_aaaef99ac0f9bb6fc836e8195b0ea8756}{enemy}\hypertarget{class_game_aaaef99ac0f9bb6fc836e8195b0ea8756}{}\label{class_game_aaaef99ac0f9bb6fc836e8195b0ea8756}
+
+\begin{DoxyCompactList}\small\item\em Creating enemy object. \end{DoxyCompactList}\item 
+Q\+Graphics\+Scene $\ast$ \hyperlink{class_game_a8119e3b9a632906c6808fa294b46a92a}{scene}\hypertarget{class_game_a8119e3b9a632906c6808fa294b46a92a}{}\label{class_game_a8119e3b9a632906c6808fa294b46a92a}
+
+\begin{DoxyCompactList}\small\item\em Creating the scene object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Katherine Wang Final \hyperlink{class_game}{Game} Assignment Description\+: This class creates the visual interface and also spawns the player and the enemies. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\subsubsection[{\texorpdfstring{Game(\+Q\+Widget $\ast$parent=0)}{Game(QWidget *parent=0)}}]{\setlength{\rightskip}{0pt plus 5cm}Game\+::\+Game (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_ae3c64a8dd73de0a99849db8ec0e9a86c}{}\label{class_game_ae3c64a8dd73de0a99849db8ec0e9a86c}
+Katherine Wang Assignment 5 Description\+: This class creates the visual interface and also spawns the player and the enemies. ---------------S\+C\+E\+NE--------------///
+
+$<$ Create a scene
+
+$<$ Setting the scene max, 800 by 600
+
+$<$Disabling scroll bars
+
+$<$Disabling scroll bars
+
+$<$ Scene is 800 by 600, but will still expand
+
+------------End Scene-\/------------//
+
+------------\hyperlink{class_player}{Player} Creation--------//
+
+Create an item to put into the scene
+
+make the player focusable
+
+add the player to the scene
+
+-----------End \hyperlink{class_player}{Player} Creation--------//
+
+---Creating score and health---//
+
+---End score/health creation---//
+
+---Enemies and treasure chest creation--//
+
+spawn enemies\+:
+
+$<$ Create an ememy every 2000 miliseconds.
+
+Spawn a treasure chest
+
+$<$ Create a treasure chest every 8000 miliseconds.
+
+--- End enemies and treasure chest spawns---//
+
+Creating background music 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/game.\+h\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/game.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,100 @@
+\hypertarget{class_enemy}{}\section{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+
+
+$<$ To make the graphic item  
+
+
+
+
+{\ttfamily \#include $<$enemy.\+h$>$}
+
+Inheritance diagram for Enemy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_enemy}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_enemy_a9a398f8d12234f02563b27440aff7891}{move} ()
+\begin{DoxyCompactList}\small\item\em $<$ slot marks a signal to a specific reaction \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_enemy_ac98fc516847e643f8e528f4bb7cbfa35}{Enemy} (Q\+Graphics\+Item $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em $<$ signalling slots \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+$<$ To make the graphic item 
+
+$<$For implementing graphics $<$for signalling slots 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\subsubsection[{\texorpdfstring{Enemy(\+Q\+Graphics\+Item $\ast$parent=0)}{Enemy(QGraphicsItem *parent=0)}}]{\setlength{\rightskip}{0pt plus 5cm}Enemy\+::\+Enemy (
+\begin{DoxyParamCaption}
+\item[{Q\+Graphics\+Item $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_enemy_ac98fc516847e643f8e528f4bb7cbfa35}{}\label{class_enemy_ac98fc516847e643f8e528f4bb7cbfa35}
+
+
+$<$ signalling slots 
+
+\hyperlink{class_enemy_ac98fc516847e643f8e528f4bb7cbfa35}{Enemy\+::\+Enemy} constructor that creates the enemy and rotates the picture. It also connects the enemy to the UI.
+
+enemy constructor $<$ Set a random position for the enemy
+
+Draw the enemy size (rectangle)
+
+connect and make a timer that makes the enemy move
+
+$<$ object whose signal you want to connect, constructor, move.
+
+$<$ setting timer\textquotesingle{}s time to 50 milliseconds. 
+
+\subsection{Member Function Documentation}
+\index{Enemy@{Enemy}!move@{move}}
+\index{move@{move}!Enemy@{Enemy}}
+\subsubsection[{\texorpdfstring{move}{move}}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy\+::move (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_enemy_a9a398f8d12234f02563b27440aff7891}{}\label{class_enemy_a9a398f8d12234f02563b27440aff7891}
+
+
+$<$ slot marks a signal to a specific reaction 
+
+\hyperlink{class_enemy_a9a398f8d12234f02563b27440aff7891}{Enemy\+::move} Moves the enemy vertically downwards. Will delete when the enemy is off the screen. Also causes the player to disappear if the player collides with a monster.
+
+will make the enemy move if enemy collides with player, destroy both.
+
+playing monster growl
+
+decrease the health
+
+when the health is = 0
+
+remove both
+
+moving enemy down
+
+$<$ x() = current x, y() = current y
+
+moving enemy down faster
+
+$<$ x() = current x, y() = current y
+
+moving enemy down even faster
+
+$<$ x() = current x, y() = current y
+
+delete the enemy when it\textquotesingle{}s off the screen 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/enemy.\+h\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/enemy.\+cpp\end{DoxyCompactItemize}

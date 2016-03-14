@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>TreasureChes.png</file>
+        <file>Black-Brick-Wall-Background.jpg</file>
+        <file>playerImg.gif</file>
+        <file>monster_attack.gif</file>
+        <file>bensound-epic.mp3</file>
+        <file>Monster Growl-SoundBible.com-344645592.mp3</file>
+        <file>coin.wav</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,95 @@
+\hypertarget{class_player}{}\section{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+Inheritance diagram for Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_player_aeed92c166b9d0e272586baf3d23abe73}{spawn\+Enemies} ()
+\begin{DoxyCompactList}\small\item\em Function that spawns enemies. \end{DoxyCompactList}\item 
+void \hyperlink{class_player_a3380dce486a55b2dc5022416780495bb}{spawn\+Treasure} ()
+\begin{DoxyCompactList}\small\item\em Function that spawns treasure. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_player_a4d193d415c83e385e41f5daf4cc5b06c}{Player} (Q\+Graphics\+Item $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em $<$ for public slots \end{DoxyCompactList}\item 
+void \hyperlink{class_player_a4d269c4118c29b0ee85c1e0f674260ee}{key\+Press\+Event} (Q\+Key\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em When a specific key is pressed, the player will move. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Name Katherine Wang Final \hyperlink{class_game}{Game} Assignment Description\+: This class creates the player (the character) and also allows the player to control his character through the arrow keys. Also spawns enemies. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\subsubsection[{\texorpdfstring{Player(\+Q\+Graphics\+Item $\ast$parent=0)}{Player(QGraphicsItem *parent=0)}}]{\setlength{\rightskip}{0pt plus 5cm}Player\+::\+Player (
+\begin{DoxyParamCaption}
+\item[{Q\+Graphics\+Item $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_player_a4d193d415c83e385e41f5daf4cc5b06c}{}\label{class_player_a4d193d415c83e385e41f5daf4cc5b06c}
+
+
+$<$ for public slots 
+
+Name Katherine Wang Assignment 5 Description\+: This class creates the player (the character). Also allows movement of the character and spawns enemies. set the player image 
+
+\subsection{Member Function Documentation}
+\index{Player@{Player}!key\+Press\+Event@{key\+Press\+Event}}
+\index{key\+Press\+Event@{key\+Press\+Event}!Player@{Player}}
+\subsubsection[{\texorpdfstring{key\+Press\+Event(\+Q\+Key\+Event $\ast$event)}{keyPressEvent(QKeyEvent *event)}}]{\setlength{\rightskip}{0pt plus 5cm}void Player\+::key\+Press\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Key\+Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}\hypertarget{class_player_a4d269c4118c29b0ee85c1e0f674260ee}{}\label{class_player_a4d269c4118c29b0ee85c1e0f674260ee}
+
+
+When a specific key is pressed, the player will move. 
+
+---Moving the player to the Left---//
+
+If the position of the player is greater than 0 on the x-\/axis, to avoid going off screen
+
+move the character to the left by 10 pixels
+
+---Moving the player right---//
+
+If the position of the player is less than 800 on the y-\/axis, to avoid going off screen
+
+move the character to the right by 10 pixels \index{Player@{Player}!spawn\+Enemies@{spawn\+Enemies}}
+\index{spawn\+Enemies@{spawn\+Enemies}!Player@{Player}}
+\subsubsection[{\texorpdfstring{spawn\+Enemies}{spawnEnemies}}]{\setlength{\rightskip}{0pt plus 5cm}void Player\+::spawn\+Enemies (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_player_aeed92c166b9d0e272586baf3d23abe73}{}\label{class_player_aeed92c166b9d0e272586baf3d23abe73}
+
+
+Function that spawns enemies. 
+
+Creates an enemy. \index{Player@{Player}!spawn\+Treasure@{spawn\+Treasure}}
+\index{spawn\+Treasure@{spawn\+Treasure}!Player@{Player}}
+\subsubsection[{\texorpdfstring{spawn\+Treasure}{spawnTreasure}}]{\setlength{\rightskip}{0pt plus 5cm}void Player\+::spawn\+Treasure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_player_a3380dce486a55b2dc5022416780495bb}{}\label{class_player_a3380dce486a55b2dc5022416780495bb}
+
+
+Function that spawns treasure. 
+
+Creates a treasure chest. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/player.\+h\item 
+/\+Users/\+Katherine/\+Desktop/\+P\+I\+C 10\+C -\/ Winter 2015/\+Treasure Run Submission -\/ Hw8/player.\+cpp\end{DoxyCompactItemize}
